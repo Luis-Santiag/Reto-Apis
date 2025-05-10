@@ -1,4 +1,4 @@
-import cv2
+ import cv2
 import os
 from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
 from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
@@ -14,8 +14,8 @@ class DeteccionPersonasApp:
         self.ruta_imagen = "imagen_capturada.jpg"
         
         # Credenciales de Clarifai
-        self.CLARIFAI_API_KEY = "68336f1a507f4fbf86d0af0a79987cb0"  # Tu API Key
-        self.CLARIFAI_APP_ID = "23"   # Tu APP_ID
+        self.CLARIFAI_API_KEY = ""  # Tu API Key
+        self.CLARIFAI_APP_ID = ""   # Tu APP_ID
 
         # Inicializar cámara
         self.camara = cv2.VideoCapture(0)
