@@ -1,9 +1,9 @@
 # Programa de Detección de Personas con Clarifai
 
 ## Integrantes
-- Aranza Brigitte Rueda Alvarado, 0905-24-7854 realizacion de  
-- Luis Ángel Santiago Palma, 0905-24-9756  
-- Edwins Josue Argueta Duarte, 0905-24-6913  
+- Aranza Brigitte Rueda Alvarado, 0905-24-7854 realizacion de la documentacion del programa   
+- Luis Ángel Santiago Palma, 0905-24-9756 programe el programa en python 
+- Edwins Josue Argueta Duarte, 0905-24-6913 realizo las busquedas de las apis que se iban a utilizar 
 
 ## Objetivo
 Crear un programa en Python que muestre una vista previa en vivo de la cámara web, capture una imagen, muestre la imagen en un formulario gráfico, y use la API de Clarifai para detectar personas y, opcionalmente, otros objetos.
